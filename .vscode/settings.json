@@ -1,0 +1,31 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MYSQL Local",
+            "database": "myDB",
+            "username": "root",
+            "connectionTimeout": 30,
+            "askForPassword": true
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "elephant",
+            "password": "analyst",
+            "connectionTimeout": 30,
+            "username": "postgres",
+            "database": "retaildb"
+        }
+    ]
+}
